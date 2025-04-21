@@ -79,6 +79,10 @@ def register():
 
         flash('Registration successful! Please log in.')
         return redirect(url_for('login'))
+    
+    return render_template('register.html')
+
+
 
 @app.route('/add-grade', methods=['GET', 'POST'])
 @login_required

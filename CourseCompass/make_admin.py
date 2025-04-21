@@ -9,3 +9,4 @@ with app.app_context():
         print(f"{user.username} is now an admin!")
     else:
         print("User not found.")
+

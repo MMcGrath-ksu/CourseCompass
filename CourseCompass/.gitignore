@@ -1,0 +1,10 @@
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore the SQLite database
+instance/grades.db
+
+# Ignore VS Code project/workspace files
+*.code-workspace
+.vscode/
